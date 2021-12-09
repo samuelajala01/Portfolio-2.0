@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  background-color: gray;
+  display: flex;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  display: flex;
+  list-style: none;
+
+}
