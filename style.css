@@ -2,16 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
-  background-color:black;
 }
 
 a{
   text-decoration: none;
+  color:white;
 }
 
 body{
   overflow-x: hidden;
+  background-color:black;
+  color:white;
+}
+
+audio{
+  display: hidden;
 }
 
 nav{
@@ -23,19 +28,27 @@ nav{
 }
 
 nav span{
+  padding:0.5rem;
   font-size: 2rem;
 }
 
 nav ul{
   display: flex;
-  width: 70vw;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 nav ul li{
-  display: flex;
   list-style: none;
-  
+
+}
+
+nav ul li a{
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+nav ul li a:hover{
+  color: green;
+  transition: 1s;
 }
 
 .home h1{
@@ -46,18 +59,29 @@ nav ul li{
   left: 6rem;
   width: fit-content;
 }
+.techie{
+  color: green;
+}
 
 .home p{
   position: relative;
   top: 6.5rem;
   left: 6rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   opacity: 0.4;
+}
+
+.home img{
+  border: 6px solid green;
+  position: absolute;
+  left: 53rem;
+  top: 8rem;
 }
 
 .icons{
   position: relative;
   top: 12rem;
+  color: white;
   display: flex;
   justify-content: space-around;
   left: 6rem;
