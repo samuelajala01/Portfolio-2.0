@@ -2,27 +2,65 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  background-color:black;
 }
 
 a{
   text-decoration: none;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 nav{
-  background-color: gray;
   display: flex;
-  height: 2rem;
-  line-height: 2rem;
+  height: 3rem;
+  line-height: 3rem;
   font-size: 1.5rem;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+nav span{
+  font-size: 2rem;
 }
 
 nav ul{
   display: flex;
+  width: 70vw;
+  justify-content: space-between;
 }
 
 nav ul li{
   display: flex;
   list-style: none;
+  
+}
 
+.home h1{
+  font-family: Roboto, "Helvetica Neue";
+  font-size: 6rem;
+  position: relative;
+  top: 6rem;
+  left: 6rem;
+  width: fit-content;
+}
+
+.home p{
+  position: relative;
+  top: 6.5rem;
+  left: 6rem;
+  font-size: 1.5rem;
+  opacity: 0.4;
+}
+
+.icons{
+  position: relative;
+  top: 12rem;
+  display: flex;
+  justify-content: space-around;
+  left: 6rem;
+  width: 20rem;
+  font-size: 3rem;
 }
