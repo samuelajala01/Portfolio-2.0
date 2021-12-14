@@ -70,6 +70,7 @@ nav ul li a:hover{
 .home-1 h1{
   font-size: 90px; 
   width: fit-content;
+  white-space: nowrap;
 }
 
 h1 span{
