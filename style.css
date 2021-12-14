@@ -18,7 +18,8 @@ body{
 
 section{
   display: block;
-  height: 100vh;
+  min-height: 100%;
+  position: static;
 }
 
 nav{
@@ -26,6 +27,7 @@ nav{
   top: 0;
   width: 100%;
   display: grid;
+  z-index: 999;
   grid-template-columns: 1fr 1.8fr;
   height: 3rem;
   line-height: 3rem;
@@ -91,6 +93,12 @@ h1 span{
  border: 5px solid green;
 }
 
+@media screen and (max-width:850px) {  
+  .home img {
+    display: none;
+  }
+}
+
 .icons{
   font-size:2.5rem;
   width: 20rem;
@@ -98,13 +106,22 @@ h1 span{
   display: flex;
 }
 
-.animate__animated.animate__fadeInUp{
-  --animation-duration: 2s;
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 2.5s;
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 1.8s;
 }
 
 .home-2{
   position: relative;
-  width: 22vw;
-  height: 90%;
+  width: 260px;
+  height: 260px;
   right: 7vw;
+ }
+
+ .about{
+  margin-top: 10rem;
+   background-color: blue;
  }
