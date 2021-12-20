@@ -1,28 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
 
-body{
+body {
   background-color: black;
   color: white;
   overflow-x: hidden;
 }
 
-section{
+section {
   display: block;
   min-height: 100%;
   position: static;
 }
 
-nav{
+nav {
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,35 +33,35 @@ nav{
   line-height: 3rem;
 }
 
-nav span{
+nav span {
   font-size: 2rem;
   padding: 0 5rem;
 }
 
-nav ul{
+nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5vw;
   justify-content: space-between;
   list-style: none;
-  font-size:1.3rem;
+  font-size: 1.3rem;
 }
 
-nav ul li a{
+nav ul li a {
   width: 100%;
-padding: 0.8rem 1.8vw;
+  padding: 0.8rem 1.8vw;
 }
 
-nav ul li a:hover{
- color: green;
+nav ul li a:hover {
+  color: green;
 }
 
-.main{
+.main {
   display: grid;
   grid-template-columns: 4fr 1.5fr;
   margin-top: 6rem;
 }
 
-.home-1{
+.home-1 {
   width: fit-content;
   height: fit-content;
   position: relative;
@@ -69,40 +69,40 @@ nav ul li a:hover{
   top: 1.5rem;
 }
 
-.home-1 h1{
-  font-size: 90px; 
+.home-1 h1 {
+  font-size: 90px;
   width: fit-content;
   white-space: nowrap;
 }
 
-h1 span{
+h1 span {
   color: green;
 }
 
-.home-1 p{
- font-size: 1.5rem;
- opacity: 0.2;
- padding: 1rem 0 4rem 0;
+.home-1 p {
+  font-size: 1.5rem;
+  opacity: 0.2;
+  padding: 1rem 0 4rem 0;
 }
 
-.home img{
- position: relative;
- top: 1rem;
- width: 100%;
- height: 100%;
- border: 5px solid green;
+#home img {
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  height: 100%;
+  border: 5px solid green;
 }
 
-@media screen and (max-width:850px) {  
-  .home img {
+@media screen and (max-width: 850px) {
+  #home img {
     display: none;
   }
 }
 
-.icons{
-  font-size:2.5rem;
+.icons {
+  font-size: 2.5rem;
   width: 20rem;
-  justify-content:space-between;
+  justify-content: space-between;
   display: flex;
 }
 
@@ -114,14 +114,104 @@ h1 span{
   --animate-duration: 1.8s;
 }
 
-.home-2{
+.home-2 {
   position: relative;
   width: 260px;
   height: 260px;
   right: 7vw;
- }
+}
 
- .about{
+#about {
   margin-top: 10rem;
-   background-color: blue;
- }
+  padding: 30px;
+  margin-bottom: 3rem;
+}
+
+#about h1 {
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 98%;
+}
+
+.info-text {
+  padding: 1rem;
+}
+
+.info-text p {
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+  margin-bottom: 3rem;
+}
+
+#about h3 {
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 1.8rem;
+}
+
+.skills-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.skills-list div {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.skills-list i {
+  text-align: center;
+  color: green;
+  font-size: 2.4rem;
+}
+
+.skills-list span {
+  text-align: center;
+  font-size: 1.8vw;
+}
+
+.info-img-div {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.info-img {
+  width: 350px;
+  height: 450px;
+  border: 3px solid green;
+}
+
+@media screen and (max-width: 850px) {
+  .info {
+    width: 100%;
+    grid-template-columns: none;
+  }
+
+  .info-img-div {
+    display: none;
+  }
+
+  .skills-list span {
+    font-size: 2.5vw;
+  }
+}
+
+#projects {
+  background-color: blue;
+}
+
+#projects h1 {
+  text-align: center;
+  font-size: 4vw;
+}
