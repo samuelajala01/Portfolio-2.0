@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+html{
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -13,13 +17,12 @@ a {
 body {
   background-color: black;
   color: white;
-  overflow-x: hidden;
+  width: 100vw;
 }
 
 section {
-  display: block;
-  min-height: 100%;
   position: static;
+  width: 100vw;
 }
 
 nav {
@@ -93,12 +96,6 @@ h1 span {
   border: 5px solid green;
 }
 
-@media screen and (max-width: 850px) {
-  #home img {
-    display: none;
-  }
-}
-
 .icons {
   font-size: 2.5rem;
   width: 20rem;
@@ -122,12 +119,15 @@ h1 span {
 }
 
 #about {
+  width: 100vw;
   margin-top: 10rem;
   padding: 30px;
   margin-bottom: 3rem;
+  background-color: blue
 }
 
 #about h1 {
+  background-color: yellow;
   font-size: 4vw;
   text-align: center;
   margin-top: 1.2rem;
@@ -192,7 +192,49 @@ h1 span {
   border: 3px solid green;
 }
 
+
+#projects {
+  padding: 3px;
+}
+
+#projects h1 {
+  text-align: center;
+  font-size: 4vw;
+}
+
+
+.project{
+  border: 4px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width:100%;
+}
+
+.project-img{
+  width: 240px;
+  height: 240px;
+}
+
+.projects-container{
+  display: grid;
+  width: 100%;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 850px) {
+  #home img {
+    display: none;
+  }
   .info {
     width: 100%;
     grid-template-columns: none;
@@ -205,13 +247,27 @@ h1 span {
   .skills-list span {
     font-size: 2.5vw;
   }
+
+
+  .projects-container{
+    display: block;
+    background-color: green;
+  }
+  .project{
+    width: 100%;
+    background-color:purple;
+  }
 }
 
-#projects {
-  background-color: blue;
-}
-
-#projects h1 {
-  text-align: center;
-  font-size: 4vw;
+@media screen and (max-width: 400px){
+  .project{
+    display: block;
+    background-color:orange;
+  }
+  .img-div,.project-info{
+    width: 100%;
+  }
+  .projects-container{
+    background-color: red;
+  }
 }
