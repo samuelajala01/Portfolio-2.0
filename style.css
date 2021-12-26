@@ -326,8 +326,104 @@ h1 span {
 
 #contact{
   height: 100vh;
-  background-color: green;
 }
+
+#contact h4{
+  text-align: center;
+  font-size: 4vw;
+  font-family: sans-serif;
+}
+
+.contact-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.form-div {
+  height: 500px;
+  width: 450px;
+  flex: 1;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row .input-group {
+  flex-basis: 48%;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: white;
+  background: transparent;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  transition: 0.2s;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+
+#submit-btn {
+  padding: 10px 0;
+  color: white;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: rgb(190, 184, 184);
+  transition-duration: 1s;
+  color: black;
+  font-weight: 700;
+}
+
+
+.other-div{
+  flex: 1;
+  height: 400px;
+}
+
 
 
 
