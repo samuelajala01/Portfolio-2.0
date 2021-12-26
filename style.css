@@ -146,7 +146,6 @@ h1 span {
 .info-text p {
   font-size: 1.4rem;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: green;
   margin-bottom: 3rem;
 }
 
@@ -215,8 +214,8 @@ h1 span {
 }
 
 .project-img {
-  width: 180px;
-  height: 150px;
+  width: 210px;
+  height: 180px;
 }
 
 .projects-container {
@@ -244,10 +243,78 @@ h1 span {
 .list-inline li{
   background-color:green;
   padding: 4px;
+  border-radius: 0.2rem;
 }
 
 .project-info button{
   margin-bottom: 1.5rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.btn-2{
+  margin-left: 2rem;
+}
+
+
+#services{
+  margin: auto;
+  height: 100vh;
+}
+
+#services h2{
+  text-align: center;
+  font-size: 4vw;
+}
+
+.services-container{
+  display:grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  column-gap: 3rem;
+  justify-content:center;
+}
+
+.service{
+  border-radius: 30px;
+  background-color: green;
+  width: 350px;
+  height: 480px;
+}
+
+.cover-img{
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 1rem;
+  margin-bottom: 3rem;
+  border-radius:50px;
+  width: 100px;
+  height: 100px;
+}
+
+.service p{
+  padding: 2rem 2rem 4rem 2rem;
+  font-size: 1.1rem;
+}
+
+.service h4{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.service button{
+  margin: auto;
+  display: flex;
+}
+.service button a{
+  color: black;
+  padding: 0.5rem 1.5rem;
+} 
+
+#contact{
+  height: 100vh;
+  background-color: green;
 }
 
 
@@ -256,7 +323,8 @@ h1 span {
 
 
 
-@media screen and (max-width: 850px) {
+
+@media screen and (max-width: 950px) {
   #home img {
     display: none;
   }
@@ -284,6 +352,9 @@ h1 span {
   .project {
     width: 100%;
     background-color: purple;
+  }
+  .project-info p{
+    padding-right: 3px;
   }
 }
 
