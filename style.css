@@ -228,6 +228,7 @@ h1 span {
 
 .project-info{
   margin: auto;
+  width: 100%;
 }
 
 .project-title{
@@ -494,16 +495,16 @@ iframe{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 575px) {
   .project {
     display: block;
   }
+}
+
+@media screen and (max-width: 400px) {
+ 
   .img-div{
     display: flex;
     justify-content: center;
   }
-  .project-info {
-    width: 100%;
-  }
- 
 }
