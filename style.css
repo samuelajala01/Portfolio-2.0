@@ -313,14 +313,14 @@ h1 span {
 }
 
 .service p{
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 1.2rem 2rem 4rem 1.2rem;
   font-size: 1.4rem;
   text-align: center;
 }
 
 .service h4{
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .service button{
@@ -473,6 +473,10 @@ iframe{
   }
   .project {
     width: 100%;
+    margin-bottom: 1rem;
+  }
+  .project-img{
+    margin-top: 1rem;
   }
   .project-info p{
     padding-right: 3px;
