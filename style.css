@@ -214,6 +214,8 @@ h1 span {
 }
 
 .project-img {
+  margin: auto;
+  display: flex;
   width: 250px;
   height: 195px;
 }
@@ -239,6 +241,7 @@ h1 span {
 
 .project-text{
   padding: 1rem 0.4rem 0 0.4rem;
+  text-align: center;
 }
 
 .list-inline{
