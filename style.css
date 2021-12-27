@@ -262,9 +262,11 @@ h1 span {
   padding: 0.3rem 0.6rem;
 }
 
-
-.btn-2{
-  margin-left: 2rem;
+.btn-div{
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  width: 180px;
 }
 
 .btn-1 a,.btn-2 a{
@@ -296,7 +298,7 @@ h1 span {
   border-radius: 30px;
   background-color: green;
   width: 350px;
-  height: 480px;
+  height: fit-content;
 }
 
 .cover-img{
@@ -312,7 +314,8 @@ h1 span {
 
 .service p{
   padding: 2rem 2rem 4rem 2rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 .service h4{
@@ -324,6 +327,7 @@ h1 span {
   margin: auto;
   border-radius: 10px;
   display: flex;
+  margin-bottom: 2rem;
 }
 .service button a{
   color: black;
