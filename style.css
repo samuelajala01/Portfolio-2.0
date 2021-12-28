@@ -502,6 +502,10 @@ iframe{
   .project {
     display: block;
   }
+  .project-img{
+    width: 20rem;
+    height: 15rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
