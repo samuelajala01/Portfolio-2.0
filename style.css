@@ -362,7 +362,7 @@ h1 span {
 }
 .form-div {
   height: 500px;
-  width: 450px;
+  width: fit-content;
   border-radius: 20px;
   border: 0.3rem solid green;
   flex: 1;
