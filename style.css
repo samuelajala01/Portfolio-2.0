@@ -490,6 +490,9 @@ iframe{
   .project-img{
     margin-top: 1rem;
   }
+  .project-title{
+    font-size:1.6rem;
+  }
   .project-info p{
     padding-right: 3px;
   }
