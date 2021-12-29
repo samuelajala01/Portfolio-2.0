@@ -129,7 +129,7 @@ h1 span {
 }
 
 #about h1 {
-  font-size: 7vw;
+  font-size: 8.5vw;
   text-align: center;
   margin-top: 1.2rem;
   margin-bottom: 1.5rem;
@@ -512,6 +512,10 @@ iframe{
   .project-img{
     width: 20rem;
     height: 15rem;
+  }
+  .project-text{
+    margin:auto;
+    margin: 0 1rem 0 1rem;
   }
 }
 
