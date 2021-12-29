@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 #home{
-  height: 100vh;
+  height: fit-content;
 }
 
 .main {
@@ -361,7 +361,8 @@ h1 span {
   justify-content: space-between;
 }
 .form-div {
-  height: 500px;
+  height: fit-content;
+  min-width: fit-content;
   width: fit-content;
   border-radius: 20px;
   border: 0.3rem solid green;
@@ -382,7 +383,6 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .row .input-group {
@@ -521,4 +521,8 @@ iframe{
     display: flex;
     justify-content: center;
   }
+  .row{
+    display: block;
+  }
+  
 }
