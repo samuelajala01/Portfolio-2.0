@@ -69,7 +69,7 @@ nav ul li a:hover {
   width: fit-content;
   height: fit-content;
   position: relative;
-  left: 5rem;
+  left: 5vw;
   top: 1.5rem;
 }
 
@@ -458,6 +458,9 @@ iframe{
 @media screen and (max-width: 950px) {
   #home img {
     display: none;
+  }
+  #home h1{
+    font-size: 70px;
   }
 
   .home-2 {
