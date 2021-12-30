@@ -344,7 +344,7 @@ h1 span {
 } 
 
 #contact{
-  height: 100vh;
+  height: fit-content;
 }
 
 #contact h4{
@@ -452,6 +452,12 @@ iframe{
   width: 100%;
   height: 100%;
 }
+
+footer{
+  background-color: gray;
+  height: 4vw;
+}
+
 
 
 @media screen and (max-width: 950px) {
