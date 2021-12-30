@@ -341,7 +341,7 @@ h1 span {
 .service button a{
   color: black;
   padding: 0.5rem 1.5rem;
-} 
+} s
 
 #contact{
   height: fit-content;
@@ -443,6 +443,7 @@ textarea:valid ~ label {
 
 .other-div{
   flex: 1;
+  background-color: green;
   height: 400px;
 }
 
