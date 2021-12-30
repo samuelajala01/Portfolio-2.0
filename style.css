@@ -459,6 +459,11 @@ footer{
   height: 4vw;
 }
 
+footer p{
+  text-align: center;
+  width: fit-content;
+}
+
 @media screen and (max-width: 1080px){
   .projects-container {
     display: block;
