@@ -364,7 +364,6 @@ h1 span {
   height: fit-content;
   min-width: fit-content;
   width: fit-content;
-  border-radius: 20px;
   border: 0.3rem solid green;
   flex: 1;
   margin: auto;
