@@ -458,7 +458,22 @@ footer{
   height: 4vw;
 }
 
-
+@media screen and (max-width: 1080px){
+  .projects-container {
+    display: block;
+    row-gap: 1rem;
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .project-title{
+    font-size:1.6rem;
+  }
+  .project-info p{
+    padding-right: 3px;
+  }
+}
 
 @media screen and (max-width: 950px) {
   #home img {
@@ -484,23 +499,6 @@ footer{
     font-size: 2.5vw;
   }
 
-  .projects-container {
-    display: block;
-    row-gap: 1rem;
-  }
-  .project {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-  .project-img{
-    margin-top: 1rem;
-  }
-  .project-title{
-    font-size:1.6rem;
-  }
-  .project-info p{
-    padding-right: 3px;
-  }
    .services-container {
     row-gap: 1rem;
    }
@@ -517,8 +515,10 @@ footer{
   .project {
     display: block;
   }
+
   .project-img{
     width: 20rem;
+    margin-top: 1rem;
     height: 15rem;
   }
   .project-text{
