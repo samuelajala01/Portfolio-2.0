@@ -447,12 +447,36 @@ textarea:valid ~ label {
   height: 400px;
 }
 
+.other-div h3{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.other-div div{
+  display: flex;
+}
+
+.other-div p, .other-div i{
+  position: relative;
+  top: 3rem;
+  left: 6rem;
+}
+
+.other-div p{
+  padding: 1rem;
+}
+
+.other-div i{
+  font-size: 2.3rem;
+}
+
 iframe{
   border: 0.6rem solid green;
   margin-top: 3rem;
   width: 100%;
   height: 100%;
 }
+
 
 footer{
   background-color: gray;
@@ -464,6 +488,8 @@ footer{
 footer p{
   text-align: center;
 }
+
+
 
 @media screen and (max-width: 1080px){
   .projects-container {
