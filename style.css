@@ -367,15 +367,21 @@ h1 span {
   border: 0.3rem solid green;
   flex: 1;
   margin: auto;
-  display: flex;
 }
 
 form {
   width: 90%;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   margin-bottom: 3rem;
   max-width: 100%;
+  background-color:blue;
+}
+
+.form-div h5{
+  font-size: 3.4rem;
+  text-align: center;
+  padding: 1.2rem;
 }
 
 .row {
@@ -469,14 +475,6 @@ textarea:valid ~ label {
 .other-div i{
   font-size: 2.3rem;
 }
-
-iframe{
-  border: 0.6rem solid green;
-  margin-top: 3rem;
-  width: 100%;
-  height: 100%;
-}
-
 
 footer{
   background-color: gray;
