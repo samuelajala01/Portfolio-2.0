@@ -128,9 +128,10 @@ h1 span {
   margin-bottom: 3rem;
 }
 
-#about h1 {
-  font-size: 8.5vw;
+#about h2 {
+  font-size: 50px;
   text-align: center;
+  white-space: nowrap;
   margin-top: 1.2rem;
   margin-bottom: 1.5rem;
 }
@@ -197,9 +198,9 @@ h1 span {
   padding: 20px;
 }
 
-#projects h1 {
+#projects h2 {
   text-align: center;
-  font-size: 4vw;
+  font-size: 50px;
   margin-bottom: 3rem;
 }
 
@@ -543,6 +544,12 @@ footer p{
 }
 
 @media screen and (max-width: 575px) {
+  #about h2{
+    font-size: 8vw;
+  }
+  #project h2{
+    font-size:10vw;
+  }
   .project {
     display: block;
   }
