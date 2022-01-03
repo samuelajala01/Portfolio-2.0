@@ -375,7 +375,6 @@ form {
   margin-top: 1.5rem;
   margin-bottom: 3rem;
   max-width: 100%;
-  background-color:blue;
 }
 
 .form-div h5{
@@ -453,9 +452,10 @@ textarea:valid ~ label {
   height: 400px;
 }
 
-.other-div h3{
+.other-div h5{
+  margin-top:1.5rem;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 .other-div div{
