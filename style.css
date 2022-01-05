@@ -296,11 +296,10 @@ h1 span {
 
 .services-container{
   display: flex;
-  flex-wrap: wrap;
   margin: auto;
   justify-content:space-between;
   padding: 2rem;
-  column-gap: 5rem;
+  column-gap: 3vw;
   justify-content:center;
 }
 
