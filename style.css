@@ -364,8 +364,7 @@ h1 span {
 .form-div {
   height: fit-content;
   min-width: fit-content;
-  width: fit-content;
-  border: 0.3rem solid green;
+  width: 100%;
   flex: 1;
   margin: auto;
 }
