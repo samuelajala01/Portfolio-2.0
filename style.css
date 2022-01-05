@@ -485,14 +485,15 @@ textarea:valid ~ label {
 }
 
 footer{
-  background-color: gray;
+  background-color: green;
   width: 100vw;
-  height: 4vw;
-  line-height: 4vw;
+  height: 3.5rem;
+  line-height: 3.5rem;
 }
 
 footer p{
   text-align: center;
+  font-size: 1.2rem
 }
 
 
