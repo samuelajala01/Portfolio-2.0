@@ -449,7 +449,7 @@ textarea:valid ~ label {
 .other-div{
   flex: 1;
   background-color: green;
-  height: 400px;
+  border-radius: 3em;
 }
 
 .other-div h5{
