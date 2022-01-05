@@ -461,20 +461,28 @@ textarea:valid ~ label {
 
 .other-div div{
   display: flex;
-}
-
-.other-div p, .other-div i{
+  width: fit-content;
   position: relative;
   top: 3rem;
   left: 6rem;
 }
 
+
 .other-div p{
   padding: 1rem;
+  font-size: 1.2rem;
 }
+
+.other-div span{
+  opacity: 0.4;
+}
+
 
 .other-div i{
   font-size: 2.3rem;
+  height: fit-content;
+  margin: auto;
+  
 }
 
 footer{
