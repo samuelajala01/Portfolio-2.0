@@ -403,9 +403,10 @@ textarea {
   width: 100%;
   padding: 10px;
   outline: 0;
+  border-radius: .2rem;
   border: 1px solid #fff;
   color: white;
-  background: transparent;
+  background: rgba(56, 55, 55, 0.493);
   font-size: 15px;
 }
 
