@@ -377,7 +377,8 @@ form {
 }
 
 .form-div h5{
-  font-size: 3.4rem;
+  font-size: clamp(2.4rem, 4vw, 3rem);
+  white-space: nowrap;
   text-align: center;
   padding: 1.2rem;
 }
