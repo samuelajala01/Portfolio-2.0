@@ -57,6 +57,7 @@ nav ul li a:hover {
 
 #home{
   height: fit-content;
+  min-height: 100vh;
 }
 
 .main {
@@ -122,7 +123,7 @@ h1 span {
 
 #about {
   width: 100vw;
-  margin-top: 2rem;
+  
   padding: 30px;
   margin-bottom: 3rem;
 }
