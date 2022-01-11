@@ -24,7 +24,7 @@ body {
   color:white;
 }
 
-nav {
+.full-nav {
   width: 100vw;
   display: grid;
   z-index: 999;
@@ -33,12 +33,12 @@ nav {
   line-height: 3rem;
 }
 
-nav span {
+.full-nav span {
   font-size: 2rem;
   padding: 0 5rem;
 }
 
-nav ul {
+.full-nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 5vw;
   justify-content: space-between;
@@ -46,12 +46,12 @@ nav ul {
   font-size: 1.3rem;
 }
 
-nav ul li a {
+.full-nav ul li a {
   width: 100%;
   padding: 0.8rem 1.8vw;
 }
 
-nav ul li a:hover {
+.full-nav ul li a:hover {
   color: green;
 }
 
