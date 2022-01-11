@@ -85,10 +85,11 @@ h1 span {
 }
 
 .home-1 p {
-  font-size: 25px;
+  font-size: 1.75em;
   opacity: 0.2;
   padding: 1rem 0 4rem 0;
-  width: fit-content;
+  width: clamp(1.5em, 20px, fit-content);
+
   white-space: nowrap;
 }
 
@@ -123,7 +124,6 @@ h1 span {
 
 #about {
   width: 100vw;
-  
   padding: 30px;
   margin-bottom: 3rem;
 }
