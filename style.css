@@ -24,6 +24,10 @@ body {
   color:white;
 }
 
+.menu-list, .menu-bar{
+  display: none;
+}
+
 .full-nav {
   width: 100vw;
   display: grid;
@@ -33,7 +37,7 @@ body {
   line-height: 3rem;
 }
 
-.full-nav span {
+.logo {
   font-size: 2rem;
   padding: 0 5rem;
 }
@@ -548,6 +552,52 @@ footer p{
   }
   .other-div{
     display: none;
+  }
+}
+
+@media  screen and (max-width:760px){
+
+  .menu-bar{
+    display:block;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 2rem;
+    top: 0.4rem;
+  }
+  .menu-bar>i{
+    font-size:2rem;
+  }
+  .full-nav ul{
+    display: none;
+  }
+  .menu-list{
+    background-color: black;
+    opacity: 0.95;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+  }
+  .menu-list ul{
+    margin-top: 4rem;
+  }
+  .menu-list li{
+    padding: 2rem;
+    list-style: none;
+    list-style-type: none;
+  }
+  .menu-list li:hover{
+    color: green;
+  }
+  .menu-list a{
+    font-size:2rem;
+    padding: 2rem 5em;
+  }
+  .menu-list a:hover{
+    color: green;
   }
 }
 
