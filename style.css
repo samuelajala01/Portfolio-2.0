@@ -89,11 +89,10 @@ h1 span {
 }
 
 .home-1 p {
-  font-size: 1.75em;
+  width: fit-content;
+  font-size: clamp(1.2em, 4vw, 25px);
   opacity: 0.2;
   padding: 1rem 0 4rem 0;
-  width: clamp(1.5em, 20px, fit-content);
-
   white-space: nowrap;
 }
 
