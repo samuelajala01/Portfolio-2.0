@@ -374,7 +374,7 @@ form {
 }
 
 .form-div h5{
-  font-size: clamp(2.4rem, 4vw, 3rem);
+  font-size: clamp(150%, 4vw, 3rem);
   white-space: nowrap;
   text-align: center;
   padding: 1.2rem;
