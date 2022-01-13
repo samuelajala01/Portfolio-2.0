@@ -24,9 +24,6 @@ body {
   color:white;
 }
 
-.menu-list, .menu-bar{
-  display: none;
-}
 
 .full-nav {
   width: 100vw;
@@ -548,7 +545,7 @@ footer p{
 
 @media  screen and (max-width:760px){
 
-  .menu-bar{
+  .menu-bar, .menu-remove-bar{
     display:block;
     width: fit-content;
     height: fit-content;
@@ -556,7 +553,7 @@ footer p{
     right: 2rem;
     top: 0.4rem;
   }
-  .menu-bar>i{
+  .menu-bar>i, .menu-remove-bar>i{
     font-size:2rem;
   }
   .full-nav ul{
