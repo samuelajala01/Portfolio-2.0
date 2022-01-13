@@ -1,11 +1,8 @@
+const year = new Date().getFullYear();
+const menubar = document.querySelector('.menu-bar');
+const menuList = document.querySelector('.menu-list');
+const menuRemoveBar = document.querySelector('.menu-remove-bar');
 
-let year = new Date().getFullYear();
-
-document.querySelector('#footer-year').innerText = year;
-
-let menubar = document.querySelector('.menu-bar');
-let menuList = document.querySelector('.menu-list');
-let menuRemoveBar = document.querySelector('.menu-remove-bar');
 
 function showMenu(){
   menubar.style.display = 'none';
@@ -13,15 +10,17 @@ function showMenu(){
 }
 
 function closeMenu(){
-  menuRemoveBar.style.display = 'none';
   menubar.style.display = 'block';
-  menuList.remove();
+  menuList.style.display = 'none';
 }
 
-menubar.onclick = () => {
-  showMenu();
-}
-
-menuRemoveBar.onclick = () => {
+menuRemoveBar.addEventListener('click', ()=>{
   closeMenu();
-}
+  
+})
+
+menubar.addEventListener('click', ()=>{
+  showMenu();
+})
+
+document.querySelector('#footer-year').innerText = year;
