@@ -80,7 +80,6 @@ body {
 
 .home-1 h1 {
   font-size: 90px;
-  width: fit-content;
   white-space: nowrap;
 }
 
@@ -549,7 +548,7 @@ footer p{
 @media screen and (max-width:760px){
 
   .menu-bar, .menu-remove-bar{
-    display:block;
+    display: block;
     width: fit-content;
     height: fit-content;
     position: absolute;
@@ -640,5 +639,8 @@ footer p{
     display: flex;
     justify-content: center;
   }
-  
+  #home h1{
+    font-size: 17vw;
+  }
+
 }
