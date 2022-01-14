@@ -564,6 +564,10 @@ footer p{
   .menu-list{
     background-color: black;
     opacity: 0.95;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
     height: 100vh;
     z-index: 1;
     text-align: center;
