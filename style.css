@@ -89,7 +89,7 @@ h1 span {
 
 .home-1 p {
   width: fit-content;
-  font-size: clamp(1.2em, 4vw, 25px);
+  font-size: clamp(1em, 4vw, 25px);
   opacity: 0.2;
   padding: 1rem 0 4rem 0;
   white-space: nowrap;
@@ -641,6 +641,10 @@ footer p{
   }
   #home h1{
     font-size: 17vw;
+  }
+  .icons{
+    font-size: 2rem;
+    width: 15rem;
   }
 
 }
