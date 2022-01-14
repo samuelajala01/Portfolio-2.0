@@ -565,9 +565,6 @@ footer p{
     background-color: black;
     opacity: 0.95;
     height: 100vh;
-    position: fixed;
-    left: 0;
-    right: 0;
     z-index: 1;
     text-align: center;
   }
@@ -579,12 +576,8 @@ footer p{
     list-style: none;
     list-style-type: none;
   }
-  .menu-list li:hover{
-    color: green;
-  }
   .menu-list a{
     font-size:2rem;
-    padding: 2rem 5em;
   }
   .menu-list a:hover{
     color: green;
