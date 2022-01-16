@@ -475,22 +475,19 @@ textarea:valid ~ label {
   font-size: 2.3rem;
   height: fit-content;
   margin: auto;
-  
 }
 
 footer{
   background-color: green;
+  text-align: center;
   width: 100vw;
   height: 3.5rem;
   line-height: 3.5rem;
 }
 
 footer p{
-  text-align: center;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
-
-
 
 @media screen and (max-width: 1080px){
   .projects-container {
