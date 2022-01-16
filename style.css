@@ -611,9 +611,9 @@ footer p{
   }
 
   .project-img{
-    width: 20rem;
     margin-top: 1rem;
-    height: 15rem;
+    width: 90%;
+    height: 99%;
   }
   .project-text{
     margin:auto;
@@ -628,7 +628,10 @@ footer p{
 }
 
 @media screen and (max-width: 400px) {
- 
+  .project-img{
+    width: 95%;
+  }
+
   .img-div{
     display: flex;
     justify-content: center;
