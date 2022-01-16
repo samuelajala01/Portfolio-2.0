@@ -2,7 +2,8 @@ const year = new Date().getFullYear();
 const menubar = document.querySelector('.menu-bar');
 const menuList = document.querySelector('.menu-list');
 const menuRemoveBar = document.querySelector('.menu-remove-bar');
-const navBarItem = document.querySelector('.nav-bar-item');
+const navItems = document.querySelector('.nav-bar-list');
+const clickMe = navItems.querySelectorAll('.click-me');
 
 
 function showMenu(){
@@ -23,5 +24,13 @@ menubar.addEventListener('click', ()=>{
   showMenu();
 })
 
+
+clickMe.forEach((navList)=>{
+   navList.onclick = ()=>{
+     setTimeout(()=>{
+       closeMenu();
+     },0000)
+   }
+})
 
 document.querySelector('#footer-year').innerText = year;
