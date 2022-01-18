@@ -548,7 +548,7 @@ footer p{
     display: block;
     width: fit-content;
     height: fit-content;
-    position: absolute;
+    position: fixed;
     right: 2rem;
     top: 0.4rem;
   }
