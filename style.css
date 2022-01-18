@@ -508,14 +508,15 @@ footer p{
 
 @media screen and (max-width: 950px) {
   #home img {
-    display: none;
+    width: 80%;
+    height: 80%;
   }
   #home h1{
     font-size: 70px;
   }
 
-  .home-2 {
-    display: none;
+  .home-2{
+    right: 14%;
   }
   .info {
     width: 100%;
@@ -582,6 +583,9 @@ footer p{
   }
   .menu-list a:hover{
     color: green;
+  }
+  .home-2{
+    display: none;
   }
 }
 
