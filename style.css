@@ -447,7 +447,8 @@ textarea:valid ~ label {
 
 .other-div{
   flex: 1;
-  background-color: green;
+  background: url(./images/contact-bg.jpg);
+  background-size: cover;
   border-radius: 3em;
 }
 
