@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
 * {
   margin: 0;
@@ -21,11 +21,12 @@ body {
 
 body {
   background-color: black;
-  color:white;
+  color: white;
 }
 
-.menu-list, .menu-bar{
-  display:none;
+.menu-list,
+.menu-bar {
+  display: none;
 }
 
 .full-nav {
@@ -59,7 +60,7 @@ body {
   color: green;
 }
 
-#home{
+#home {
   height: fit-content;
   min-height: 100vh;
 }
@@ -131,7 +132,7 @@ h1 span {
 }
 
 #about h2 {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 50px;
   text-align: center;
   white-space: nowrap;
@@ -152,7 +153,7 @@ h1 span {
 .info-text p {
   font-size: 1.8rem;
   text-align: center;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   margin-bottom: 3rem;
 }
 
@@ -203,7 +204,7 @@ h1 span {
 
 #projects h2 {
   text-align: center;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 50px;
   margin-bottom: 3rem;
 }
@@ -237,78 +238,79 @@ h1 span {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.project-info{
+.project-info {
   margin: auto;
   width: 100%;
 }
 
-.project-title{
+.project-title {
   font-size: 1.4rem;
   margin-top: 2rem;
   text-align: center;
 }
 
-.project-text{
+.project-text {
   padding: 1rem 0.4rem 0 0.4rem;
   text-align: center;
 }
 
-.list-inline{
-  display:flex;
+.list-inline {
+  display: flex;
   list-style: none;
   margin: auto;
   width: 16rem;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 1rem;
   padding-right: 5px;
   margin-bottom: 2rem;
 }
 
-.list-inline li{
-  background-color:green;
+.list-inline li {
+  background-color: green;
   padding: 4px;
   border-radius: 0.2rem;
 }
 
-.project-info button{
+.project-info button {
   justify-content: center;
   margin-bottom: 1.5rem;
   padding: 0.3rem 0.6rem;
 }
 
-.btn-div{
+.btn-div {
   margin: auto;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 180px;
 }
 
-.btn-1 a,.btn-2 a{
+.btn-1 a,
+.btn-2 a {
   padding: 0.3rem 0.6rem;
-  color:black;
+  color: black;
 }
 
-#services{
+#services {
   margin: auto;
   height: fit-content;
   text-align: center;
 }
 
-#services h2{
+#services h2 {
   font-size: 4.5vw;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
-.services-container{
+.services-container {
   display: flex;
   margin: auto;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 2rem;
   column-gap: 3vw;
-  justify-content:center;
+  justify-content: center;
 }
 
-.service{
+.service {
   border-radius: 30px;
   background-color: green;
   width: 350px;
@@ -316,42 +318,42 @@ h1 span {
   min-height: 200px;
 }
 
-.cover-img{
+.cover-img {
   display: flex;
   margin: auto;
   position: relative;
   top: 1rem;
   margin-bottom: 3rem;
-  border-radius:50px;
+  border-radius: 50px;
   width: 100px;
   height: 100px;
 }
 
-.service h4{
+.service h4 {
   margin-bottom: 1rem;
   font-size: 1.4rem;
 }
 
-.service button{
+.service button {
   border-radius: 10px;
   padding: 0.5rem 1.5rem;
   margin-bottom: 1rem;
 }
-.service button a{
+.service button a {
   color: black;
-} 
+}
 
-#contact{
+#contact {
   height: fit-content;
 }
 
-#contact h4{
+#contact h4 {
   text-align: center;
   font-size: 4vw;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -373,9 +375,9 @@ form {
   max-width: 100%;
 }
 
-.form-div h5{
+.form-div h5 {
   font-size: clamp(150%, 4vw, 3rem);
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   white-space: nowrap;
   text-align: center;
   padding: 1.2rem;
@@ -401,7 +403,7 @@ textarea {
   width: 100%;
   padding: 10px;
   outline: 0;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   border: unset;
   color: white;
   background: rgba(56, 55, 55, 0.493);
@@ -444,22 +446,21 @@ textarea:valid ~ label {
   font-weight: 700;
 }
 
-
-.other-div{
+.other-div {
   flex: 1;
   background: url(./images/contact-bg.jpg);
   background-size: cover;
   border-radius: 3em;
 }
 
-.other-div h5{
-  font-family: 'Caveat', cursive;
-  margin-top:1.5rem;
+.other-div h5 {
+  font-family: "Caveat", cursive;
+  margin-top: 1.5rem;
   text-align: center;
   font-size: 2.5rem;
 }
 
-.other-div div{
+.other-div div {
   display: flex;
   width: fit-content;
   position: relative;
@@ -467,24 +468,22 @@ textarea:valid ~ label {
   left: 6rem;
 }
 
-
-.other-div p{
+.other-div p {
   padding: 1rem;
   font-size: 1.2rem;
 }
 
-.other-div span{
+.other-div span {
   opacity: 0.6;
 }
 
-
-.other-div i{
+.other-div i {
   font-size: 2.3rem;
   height: fit-content;
   margin: auto;
 }
 
-footer{
+footer {
   background-color: green;
   text-align: center;
   width: 100vw;
@@ -492,11 +491,11 @@ footer{
   line-height: 3.5rem;
 }
 
-footer p{
+footer p {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px) {
   .projects-container {
     display: block;
     row-gap: 1rem;
@@ -505,10 +504,10 @@ footer p{
     width: 100%;
     margin-bottom: 1rem;
   }
-  .project-title{
-    font-size:1.6rem;
+  .project-title {
+    font-size: 1.6rem;
   }
-  .project-info p{
+  .project-info p {
     padding-right: 3px;
   }
 }
@@ -518,11 +517,11 @@ footer p{
     width: 80%;
     height: 80%;
   }
-  #home h1{
+  #home h1 {
     font-size: 70px;
   }
 
-  .home-2{
+  .home-2 {
     right: 14%;
   }
   .info {
@@ -538,21 +537,21 @@ footer p{
     font-size: 2.5vw;
   }
 
-   .services-container {
+  .services-container {
     row-gap: 1rem;
-   }
-
-  .contact-container{
-    display:block;
   }
-  .other-div{
+
+  .contact-container {
+    display: block;
+  }
+  .other-div {
     display: none;
   }
 }
 
-@media screen and (max-width:760px){
-
-  .menu-bar, .menu-remove-bar{
+@media screen and (max-width: 760px) {
+  .menu-bar,
+  .menu-remove-bar {
     display: block;
     width: fit-content;
     height: fit-content;
@@ -560,13 +559,14 @@ footer p{
     right: 2rem;
     top: 0.4rem;
   }
-  .menu-bar>i, .menu-remove-bar>i{
-    font-size:2rem;
+  .menu-bar > i,
+  .menu-remove-bar > i {
+    font-size: 2rem;
   }
-  .full-nav ul{
+  .full-nav ul {
     display: none;
   }
-  .menu-list{
+  .menu-list {
     background-color: black;
     opacity: 0.95;
     position: absolute;
@@ -577,82 +577,78 @@ footer p{
     z-index: 1;
     text-align: center;
   }
-  .menu-list ul{
+  .menu-list ul {
     margin-top: 4rem;
   }
-  .menu-list li{
+  .menu-list li {
     padding: 2rem;
     list-style: none;
     list-style-type: none;
   }
-  .menu-list a{
-    font-size:2rem;
+  .menu-list a {
+    font-size: 2rem;
   }
-  .menu-list a:hover{
+  .menu-list a:hover {
     color: green;
   }
-  .home-2{
+  .home-2 {
     display: none;
   }
 }
 
-
-
 @media screen and (max-width: 620px) {
-  .service{
+  .service {
     width: 80%;
     margin: auto;
     margin-bottom: 1rem;
   }
-  .service button{
+  .service button {
     margin-bottom: 1rem;
   }
 }
 
-
 @media screen and (max-width: 575px) {
-  #about h2{
+  #about h2 {
     font-size: 8vw;
   }
-  #project h2{
-    font-size:10vw;
+  #project h2 {
+    font-size: 10vw;
   }
   .project {
     display: block;
   }
 
-  .project-img{
+  .project-img {
     margin-top: 1rem;
     width: 90%;
     height: 99%;
   }
-  .project-text{
-    margin:auto;
+  .project-text {
+    margin: auto;
     margin: 0 1rem 0 1rem;
   }
-  .services-container{
+  .services-container {
     display: block;
   }
-  .row{
+  .row {
     display: block;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .project-img{
+  .project-img {
     width: 95%;
   }
 
-  .img-div{
+  .img-div {
     display: flex;
     justify-content: center;
   }
-  #home h1{
-    font-size: 17vw;
+  #home h1 {
+    font-size: 15vw;
   }
-  .icons{
+  .icons {
     font-size: 2rem;
     width: 15rem;
   }
-
 }
