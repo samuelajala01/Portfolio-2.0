@@ -518,7 +518,7 @@ footer p {
     height: 80%;
   }
   #home h1 {
-    font-size: 70px;
+    font-size: min(40px);
   }
 
   .home-2 {
@@ -644,9 +644,7 @@ footer p {
     display: flex;
     justify-content: center;
   }
-  #home h1 {
-    font-size: 20px;
-  }
+
   .icons {
     font-size: 2rem;
     width: 15rem;
