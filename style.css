@@ -20,8 +20,8 @@ body {
 }
 
 body {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .menu-list,
@@ -645,7 +645,7 @@ footer p {
     justify-content: center;
   }
   #home h1 {
-    font-size: 13vw;
+    font-size: 3em;
   }
   .icons {
     font-size: 2rem;
