@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    position: relative;
+    top: 10em;
+    justify-content: center;
+}
+
+.body{
+    background-color: hsl(120, 77%, 41%);
+    border-radius: 1em;
+    height: 10em;
+    padding: 1rem;
+    width: fit-content;
+}
