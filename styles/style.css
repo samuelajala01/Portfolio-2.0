@@ -37,7 +37,8 @@ body {
   grid-template-columns: 1fr 1.8fr;
   height: 3rem;
   line-height: 3rem;
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
