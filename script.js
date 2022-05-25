@@ -1,36 +1,26 @@
-const year = new Date().getFullYear();
-const menubar = document.querySelector('.menu-bar');
-const menuList = document.querySelector('.menu-list');
-const menuRemoveBar = document.querySelector('.menu-remove-bar');
-const navItems = document.querySelector('.nav-bar-list');
-const clickMe = navItems.querySelectorAll('.click-me');
+const year = new Date().getFullYear()
+const menubar = document.querySelector(".menu-bar")
+const menuList = document.querySelector(".menu-list")
+const menuRemoveBar = document.querySelector(".menu-remove-bar")
+const navItems = document.querySelector(".nav-bar-list")
+const clickMe = navItems.querySelectorAll(".click-me")
 
-
-function showMenu(){
-  menubar.style.display = 'none';
-  menuList.style.display = 'block';
+function showMenu() {
+  menubar.style.display = "none"
+  menuList.style.display = "block"
 }
 
-function closeMenu(){
-  menubar.style.display = 'block';
-  menuList.style.display = 'none';
+function closeMenu() {
+  menubar.style.display = "block"
+  menuList.style.display = "none"
 }
 
-menuRemoveBar.addEventListener('click', ()=>{
-  closeMenu();
+menuRemoveBar.addEventListener("click", () => {
+  closeMenu()
 })
 
-menubar.addEventListener('click', ()=>{
-  showMenu();
+menubar.addEventListener("click", () => {
+  showMenu()
 })
 
-
-clickMe.forEach((navList)=>{
-   navList.onclick = ()=>{
-     setTimeout(()=>{
-       closeMenu();
-     },0000)
-   }
-})
-
-document.querySelector('#footer-year').innerText = year;
+document.querySelector("#footer-year").innerText = year

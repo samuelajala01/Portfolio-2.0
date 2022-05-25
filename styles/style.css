@@ -38,6 +38,7 @@ body {
   height: 3rem;
   line-height: 3rem;
   position: fixed;
+  top: 0;
 }
 
 .logo {
